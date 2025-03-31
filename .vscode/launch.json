@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-LirarymgApplication<lirarymg>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "librartmanagement.example.lirarymg.LirarymgApplication",
+      "projectName": "lirarymg",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
