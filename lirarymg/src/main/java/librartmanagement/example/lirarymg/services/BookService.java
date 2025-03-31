@@ -44,7 +44,6 @@ public class BookService {
             book.setBorrowed(true);
             return save(book);
         }
-        // Handle errors (e.g., book not found, book already borrowed, user not found)
         return null;
     }
 
@@ -55,7 +54,6 @@ public class BookService {
             book.setBorrowed(false);
             return save(book);
         }
-        // Handle errors (e.g., book not found, book not borrowed)
         return null;
     }
 }
