@@ -54,7 +54,7 @@ public class BookController {
         if (borrowedBook != null) {
             return ResponseEntity.ok(borrowedBook);
         } else {
-            return ResponseEntity.badRequest().build(); // or a more descriptive error response
+            return ResponseEntity.badRequest().build(); 
         }
     }
 
@@ -64,7 +64,7 @@ public class BookController {
         if (returnedBook != null) {
             return ResponseEntity.ok(returnedBook);
         } else {
-            return ResponseEntity.badRequest().build(); // or a more descriptive error response
+            return ResponseEntity.badRequest().build(); 
         }
     }
 }
